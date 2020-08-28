@@ -4,6 +4,10 @@ input.onButtonPressed(Button.A, function () {
 input.onGesture(Gesture.LogoUp, function () {
     Count += 1
 })
+input.onButtonPressed(Button.AB, function () {
+    basic.clearScreen()
+    Count = -1
+})
 let Count = 0
 Count = 0
 basic.forever(function () {

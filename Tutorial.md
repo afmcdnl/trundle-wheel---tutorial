@@ -43,11 +43,21 @@ input.onButtonPressed(Button.A, function () {
     basic.showNumber(Count * 100)
 })
 ```
+## Reset the wheel.
+Using the ``A`` and ``B`` buttons, the ``Count`` can be reset to find out the distance between two new objects. 
 
+```blocks
+input.onButtonPressed(Button.AB, function () {
+    basic.clearScreen()
+    Count = -1
+})
+```
 
 
 
 ## All the code
+Enjoy!
+
 ```blocks
 input.onButtonPressed(Button.A, function () {
     basic.showNumber(Count * 100)
@@ -61,6 +71,10 @@ basic.forever(function () {
     if (Count >= 0) {
         basic.showNumber(Count)
     }
+})
+input.onButtonPressed(Button.AB, function () {
+    basic.clearScreen()
+    Count = -1
 })
 
 ```
