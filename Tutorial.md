@@ -13,7 +13,7 @@ Count = -1
 ```
 ## Increasing the number of turns.
 Now that we have a way to keep track of the number of turns we need a way to increase that number of turns. 
-We are going to use the acceloramter sensor and the ``LogoUp`` input block
+We are going to use the accelerometer sensor and the ``LogoUp`` input block
 
 ```blocks
 input.onGesture(Gesture.LogoUp, function () {
@@ -23,7 +23,7 @@ input.onGesture(Gesture.LogoUp, function () {
 
 ## Displaying the number of turns.
 Now that we have a way to keep track of the number of turns we need a way to increase that number of turns. 
-We are going to use the acceloramter sensor and the ``LogoUp`` input block
+We are going to use the accelerometer sensor and the ``LogoUp`` input block
 
 ```blocks
 basic.forever(function () {
