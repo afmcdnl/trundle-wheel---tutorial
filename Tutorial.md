@@ -1,4 +1,4 @@
-# Programming the Trundle Wheel Tutorial
+# Programming the Trundle Wheel Tutorial @fullscreen
 Using a cardboard wheel and a micro:bit you can 
 keep track of the number of the distance from one object to another.
 
@@ -22,8 +22,7 @@ input.onGesture(Gesture.LogoUp, function () {
 ```
 
 ## Displaying the number of turns.
-Now that we have a way to keep track of the number of turns we need a way to increase that number of turns. 
-We are going to use the accelerometer sensor and the ``LogoUp`` input block
+We can display the count using the ``||basic:show number||`` block and then placing the variable inside.
 
 ```blocks
 basic.forever(function () {
