@@ -1,4 +1,4 @@
-# Programming the Trundle Wheel Tutorial 
+# Programming the Trundle Wheel Tutorials 
 
 ## About this project! @fullscreen
 Using a cardboard wheel and a micro:bit you can (need picture)
