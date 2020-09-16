@@ -1,7 +1,7 @@
 # Programming the Trundle Wheel Tutorial 
 
-## About this project @fullscreen
-Using a cardboard wheel and a micro:bit you can 
+## About this project! @fullscreen
+Using a cardboard wheel and a micro:bit you can (need picture)
 keep track of the number of the distance from one object to another.
 
 ## Keeping track of the number of turns
