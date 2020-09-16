@@ -4,6 +4,8 @@
 Using a cardboard wheel and a micro:bit you can (need picture)
 keep track of the number of the distance from one object to another.
 
+!
+
 ## Keeping track of the number of turns
 We need to create a variable to keep track of the number of times the wheel has rotated.
 We will use a variable for that. This is found in the <i> Variables </i> drawer.  The reason to start the count at ``-1``
@@ -58,6 +60,8 @@ input.onButtonPressed(Button.AB, function () {
 
 ## All the code
 Enjoy!
+
+See the hint to see all the code. Thanks for following!
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
